@@ -23,7 +23,7 @@ if (!require("shinythemes")){install.packages("shinythemes");   library("shinyth
 
 # UI Block ----
 # In this block we define the visual components and structure of our web page 
-# Titles, Menus, Columns, Rows, box etc. Texts
+# Titles, Menus, Columns, Rows, box, Texts --> etc. 
 ui <- fluidPage(
     theme = shinytheme("cerulean"),
     # Application title
@@ -62,7 +62,6 @@ server <- function(input, output) {
 }
    
 shinyApp(ui, server)
-
 
 
 #dashboardPage Shiny----
